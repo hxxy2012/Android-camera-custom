@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ProShot</string>
+
+    <!-- Camera Controls -->
+    <string name="iso">ISO</string>
+    <string name="shutter_speed">Shutter</string>
+    <string name="white_balance">WB</string>
+    <string name="exposure_compensation">EV</string>
+    <string name="focus">Focus</string>
+
+    <!-- Focus Modes -->
+    <string name="af_s">AF-S</string>
+    <string name="af_c">AF-C</string>
+    <string name="mf">MF</string>
+
+    <!-- Metering Modes -->
+    <string name="metering_matrix">Matrix</string>
+    <string name="metering_center">Center</string>
+    <string name="metering_spot">Spot</string>
+
+    <!-- Shooting Modes -->
+    <string name="mode_manual">Manual</string>
+    <string name="mode_pro">Pro</string>
+    <string name="mode_night">Night</string>
+    <string name="mode_hdr">HDR</string>
+    <string name="mode_panorama">Panorama</string>
+    <string name="mode_long_exposure">Long Exposure</string>
+    <string name="mode_timelapse">Timelapse</string>
+
+    <!-- Permissions -->
+    <string name="permission_camera_required">Camera permission is required to take photos</string>
+    <string name="permission_storage_required">Storage permission is required to save photos</string>
+    <string name="permission_location_optional">Location permission allows GPS tagging</string>
+
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="raw_format">RAW Format</string>
+    <string name="raw_jpeg">RAW + JPEG</string>
+    <string name="jpeg_only">JPEG Only</string>
+    <string name="raw_only">RAW Only</string>
+
+    <!-- Grid Lines -->
+    <string name="grid_none">No Grid</string>
+    <string name="grid_thirds">Rule of Thirds</string>
+    <string name="grid_golden">Golden Ratio</string>
+    <string name="grid_diagonal">Diagonal</string>
+
+    <!-- Misc -->
+    <string name="capture">Capture</string>
+    <string name="gallery">Gallery</string>
+    <string name="histogram">Histogram</string>
+    <string name="level">Level</string>
+</resources>
