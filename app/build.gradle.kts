@@ -106,6 +106,9 @@ dependencies {
     // Timber for logging
     implementation("com.jakewharton.timber:timber:5.0.1")
 
+    // Gson for JSON parsing
+    implementation("com.google.code.gson:gson:2.10.1")
+
     // TensorFlow Lite for AI features
     implementation("org.tensorflow:tensorflow-lite:2.14.0")
     implementation("org.tensorflow:tensorflow-lite-gpu:2.14.0")

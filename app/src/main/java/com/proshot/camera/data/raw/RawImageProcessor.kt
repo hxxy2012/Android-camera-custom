@@ -12,6 +12,7 @@ import javax.inject.Singleton
 import kotlin.math.max
 import kotlin.math.min
 import kotlin.math.pow
+import kotlin.math.sqrt
 
 /**
  * RAW image processor for DNG files
@@ -332,14 +333,14 @@ class RawImageProcessor @Inject constructor() {
 
         val centerX = width / 2f
         val centerY = height / 2f
-        val maxDist = kotlin.math.sqrt((centerX * centerX + centerY * centerY).toDouble()).toFloat()
+        val maxDist = sqrt((centerX * centerX + centerY * centerY).toDouble()).toFloat()
         val strength = vignette / 100f
 
         for (y in 0 until height) {
             for (x in 0 until width) {
                 val dx = x - centerX
                 val dy = y - centerY
-                val dist = kotlin.math.sqrt((dx * dx + dy * dy).toDouble()).toFloat()
+                val dist = sqrt((dx * dx + dy * dy).toDouble()).toFloat()
                 val factor = 1f - (dist / maxDist) * strength
 
                 val pixel = bitmap.getPixel(x, y)

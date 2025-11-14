@@ -45,6 +45,7 @@ import com.proshot.camera.presentation.theme.AccentBlue
 import com.proshot.camera.presentation.theme.AccentGreen
 import com.proshot.camera.presentation.theme.AccentOrange
 import com.proshot.camera.presentation.theme.AccentRed
+import com.proshot.camera.presentation.theme.AccentYellow
 import com.proshot.camera.presentation.theme.OverlayBackground
 import com.proshot.camera.presentation.theme.PureWhite
 
